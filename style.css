@@ -1,0 +1,225 @@
+/* default css */
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.fix-width{
+    max-width: 1100px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* header section */
+.header{
+    background-color: #48dbfb;
+}
+
+.header-right{
+    float: left;
+    width: 30%;
+}
+.header-right img{
+    width: 205px;
+    height: auto;
+
+}
+.header-left{
+    float: right;
+    width: 70%;
+}
+.header-left ul{
+    text-align: right;
+    list-style: none;
+}
+.header-left ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-left ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 70px;
+    border-right: 2px solid #ddd;
+}
+.header-left ul li:last-child a{
+    border-right: none;
+}
+.header-left ul li a:hover{
+    background-color: #3498db ;
+}
+
+/* banner section */
+.banner{
+    background: url("https://media.istockphoto.com/photos/laptop-computer-screen-mockup-template-background-banner-man-hand-picture-id1329619660?b=1&k=20&m=1329619660&s=170667a&w=0&h=pxjIRbfbPvWM9FZydyCd1yRb2phqVZG9jt0T2yCBhbo=") no-repeat center; 
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner h2{
+    color: #fff;
+    background-color: black;
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.banner h2:hover{
+    background-color: #55efc4;
+}
+.banner h1{
+    color: #fff;
+    background-color: #81ecec;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.banner h1:hover{
+    background-color: #74b9ff;
+}
+
+/* about section */
+.about h1{
+    margin: 20px 0;
+
+}
+.about{
+    padding: 20px 0;
+}
+.about p{
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* service section */
+.service-box{
+    padding: 20px 0;
+}
+.service{
+    float: left;
+    width: 31.3%;
+    border: 1px solid green;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.service span i{
+    color: #fff;
+    font-size: 35px;
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: #3498db;
+    line-height: 60px;
+    border-radius: 20px 0;
+    margin: 20px auto;
+    transition: .5s;
+}
+.service span i:hover{
+    background-color:#26de81;
+    color: #fc5c65;
+    cursor: pointer;
+}
+.service h2{
+    margin: 20px 0;
+
+}
+
+/* blog section */
+.blog{
+    margin-top: 30px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 50px 0;
+  
+}
+.blog-left{
+    float: left;
+    width: 70%;
+    /* border: 1px solid red; */
+
+}
+.blog-right{
+    float: right;
+    width: 25%;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+
+/* blog right  */
+
+.blog-right h2{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 2px solid #ddd;
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* footer section */
+.footer{
+    background-color: #34495e;
+    color: #fff;
+    padding: 18px 0;
+}
+.footer-left{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+.footer-right{
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+.footer-right ul.social-menu{
+    list-style: none;
+}  
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a{
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+    transition: .5s;
+}
+
+.social-menu li a:hover{
+    background-color: #2ecc71;
+    color: #4b7bec;
+    border-radius: 10px;
+}
